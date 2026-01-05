@@ -1,7 +1,6 @@
 from typing import List
 
 class Solution:
-    print("hello")
     def twoSum(self, nums, target) -> List[int]:
         found: dict = {}
         for (i, v) in enumerate(nums):
